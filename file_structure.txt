@@ -1,0 +1,35 @@
+ a brief explanation of each file and directory:
+
+    public: This directory contains the static files that are served to the client, such as the index.html file and the app's favicon.
+
+    src: This directory contains the source code for your React components and other utilities.
+
+    components: This directory contains the React components that make up your app's user interface.
+
+        Header.js: This component renders the app's header.
+
+        CurrentWeather.js: This component renders the current weather conditions for the user's current location.
+
+        WeatherIcon.js: This component renders an icon representing the current weather condition.
+
+        SearchBar.js: This component renders a search bar for the user to search for weather information for a specific city.
+
+        WeatherCard.js: This component renders a card displaying weather information for a specific city.
+
+    utils: This directory contains utility functions used throughout the app.
+
+        api.js: This module exports functions for fetching weather data from the weather API.
+
+        weatherIcons.js: This module exports an object mapping weather condition codes to weather icon filenames.
+
+    App.js: This component is the main component of your app, rendering the other components as necessary.
+
+    index.js: This file renders the App component into the DOM.
+
+    styles.css: This file contains the CSS styles for your app.
+
+    .env: This file contains your API key as an environment variable.
+
+    package.json: This file contains metadata about your app, including its dependencies.
+
+    README.md: This file contains documentation for your app.

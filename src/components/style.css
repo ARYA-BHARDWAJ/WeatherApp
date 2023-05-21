@@ -1,0 +1,35 @@
+/* .card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+} */
+
+/* .location {
+  font-size: 20px;
+  margin-bottom: 10px;
+} */
+
+
+.clock {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #fff;
+}
+
+
+
+
+  .weather-icon {
+    background-color: #000000; /* Set a different background color */
+    padding: 4px; /* Add padding to create some separation */
+    border-radius: 50%; /* Apply a border-radius for a circular shape */
+  }
+  
